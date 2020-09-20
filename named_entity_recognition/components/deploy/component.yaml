@@ -28,7 +28,7 @@ inputs:
 outputs:
 implementation:
   container:
-    image: gcr.io/hybrid-shelter-285711/kubeflow/ner/deploy:latest
+    image: gcr.io/amiable-shuttle-287010/kubeflow/ner/deploy:latest
     command: [
       sh, /pipelines/component/src/deploy.sh
     ]
